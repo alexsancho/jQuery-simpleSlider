@@ -1,4 +1,4 @@
-/**
+/*!
  * jQuery SimpleSlide Plugin
  *
  * Copyright(c) 2012 Alex Sancho <alex@alexsancho.name>
