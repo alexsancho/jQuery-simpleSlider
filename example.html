@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>jQuery simpleSlider Demo</title>
+
+		<link rel="stylesheet" href="jQuery.simpleSlider.css" media="screen" />
+
+		<style media="screen">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				color: #333;
+				background: #fafbfc;
+				font: normal 200 14px/1 "Helvetica Neue", Helvetica;
+			}
+
+			aside {
+				float: left;
+				margin: 20px;
+			}
+
+			.clearfix:after {
+				content: ".";
+				height: 0;
+				display: block;
+				visibility: hidden;
+				clear: both;
+			}
+
+			.clearfix {min-height:1%;}
+
+			* html .clearfix {height:1%;}
+		</style>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="jQuery.simpleSlider.min.js"></script>
+		<script>
+			jQuery(function() {
+				jQuery('.myslider').simpleSlider();
+			});
+		</script>
+	</head>
+	<body>
+		<section id="main">
+			<aside class="myslider clearfix">
+				<figure>
+					<img src="images/Iridexel3_1.jpg" width="640" height="960" alt="Iridexel 3 1" />
+					<figcaption>Iridexel 3 1</figcaption>
+				</figure>
+				<figure>
+					<img src="images/Iridexel3_2.jpg" width="640" height="960" alt="Iridexel 3 2" />
+					<figcaption>Iridexel 3 2</figcaption>
+				</figure>
+				<figure>
+					<img src="images/Iridexel3_3.jpg" width="640" height="960" alt="Iridexel 3 3" />
+					<figcaption>Iridexel 3 3</figcaption>
+				</figure>
+			</aside>
+
+			<aside class="myslider clearfix">
+				<figure>
+					<img src="images/squares1.jpg" width="640" height="960" alt="Squares 1" />
+					<figcaption>Squares 1</figcaption>
+				</figure>
+				<figure>
+					<img src="images/squares2.jpg" width="640" height="960" alt="Squares 2" />
+					<figcaption>Squares 2</figcaption>
+				</figure>
+				<figure>
+					<img src="images/squares3.jpg" width="640" height="960" alt="Squares 3" />
+					<figcaption>Squares 3</figcaption>
+				</figure>
+			</aside>
+
+			<aside class="myslider clearfix">
+				<figure>
+					<img src="images/underwater2.jpg" width="640" height="960" alt="Underwater 2" />
+					<figcaption>Underwater 2</figcaption>
+				</figure>
+				<figure>
+					<img src="images/Water Drops.jpg" width="640" height="960" alt="Water Drops" />
+					<figcaption>Water Drops</figcaption>
+				</figure>
+				<figure>
+					<img src="images/waterdrops.jpg" width="640" height="960" alt="Waterdrops" />
+					<figcaption>Waterdrops</figcaption>
+				</figure>
+			</aside>
+		</section>
+	</body>
+</html>
