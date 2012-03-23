@@ -1,4 +1,4 @@
-jQuery simpleSlider Plugin[![Build Status](https://secure.travis-ci.org/alexsancho/jQuery-simpleSlider.png)](http://travis-ci.org/alexsancho/jQuery-simpleSlider)
+jQuery simpleSlider Plugin [![Build Status](https://secure.travis-ci.org/alexsancho/jQuery-simpleSlider.png)](http://travis-ci.org/alexsancho/jQuery-simpleSlider)
 --------------------------
 
 This plugin converts a group of figure elements in a simple slideshow.
